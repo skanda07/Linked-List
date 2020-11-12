@@ -123,7 +123,7 @@ Slist* slist_delete_tail(Slist *list)
 	--list->length;
 	return list;
 }
-Slist* slist_deletenode_any(Slist *list,int32_t element){
+/*Slist* slist_deletenode_any(Slist *list,int32_t element){
 	assert(list!=NULL);
 	Node *temp;
 	temp=list->head;
@@ -144,7 +144,7 @@ Slist* slist_deletenode_any(Slist *list,int32_t element){
         }
     }
     return list;
-}
+}*/
 
 
 int32_t slist_min(Slist *list) {
