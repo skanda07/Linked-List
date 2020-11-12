@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605163053 source:e:\linkedlist assignment\main.c
+	<assert.h>
+	<stdlib.h>
+	"list.h"
+	<stdio.h>
+
+1605163813 e:\linkedlist assignment\list.h
+	<stdint.h>
+
